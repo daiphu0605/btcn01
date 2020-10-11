@@ -1,0 +1,226 @@
+        body {
+            background-image: url(../image/background.jpg);
+            background-attachment: fixed;
+            position: relative;
+        }
+        big{
+            font-size: 24px;
+        }
+        #container{
+            margin: auto;
+        }
+        #page {
+            background-image: url(../image/bg-page.jpg);
+            background-repeat: repeat-x;
+            background-color: #f7f7f7;
+            width: 1002px;
+            margin: auto;
+            position: relative;
+        }
+        #header{
+            padding: 30px 15px 30px 30px;
+        }
+        #logo{
+            float: left;
+        }
+        .contract {
+            float: right;
+            padding-right: 30px;
+        }
+        .clear {
+            clear: both;
+        }
+        #slide {
+            text-align: center;
+            position: relative;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+        #slide img{
+            width: 90%;
+        }
+        .try{
+        }
+        .btn_try {
+            background-image: url(../image/button-try-shadow.png);
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            margin: auto;
+            padding-bottom: 33px;
+            width: 343px;
+            height: 57px;
+        }
+        .btn_try a {
+            background: url(../image/button-try.png) 0px 0px;
+            background-position: top left;
+            position: absolute;
+            padding-bottom: 57px;
+            padding-right: 343px;
+            text-decoration: none;
+            float:left;
+        }
+        .btn_try a:hover{
+             background: url(../image/button-try.png) 0px -57px;
+        }
+        .left_arrow {
+            background: url(../image/arrow_left.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            padding-right: 47px;
+            padding-bottom: 62px;
+            float: right;
+            color: #6b9cdf;
+            font-size: 22px;
+            font-style: italic;
+            position: relative;
+            right: 30px;
+            top: -85px;
+        }
+        .right_arrow {
+            background: url(../image/arrow_right.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            padding-left: 96px;
+            padding-top: 55px;
+            float: left;
+            color: #6b9cdf;
+            font-size: 22px;
+            font-style: italic;
+            position: relative;
+            left: 50px;
+            top: -50px;
+        }
+        #feature_list{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        #feature_list ul{
+            list-style: none;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        #feature_list ul li{
+            display: grid;
+            grid-template-columns: 25% 75%;
+        }
+        #feature_list ul li .col1{
+            margin-top: 20px;
+        }
+        #feature_list ul li .col2{
+            text-align: justify;
+            padding-right: 35px;
+        }
+        #testimonials{
+            margin: 0px 30px;
+            margin-bottom: 30px;
+        }
+        #testimonials .text{
+            font-style: italic;
+            border: 1px solid #f0f0f0;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+            font-style: italic;
+            text-align: center;
+            padding: 0 30px;
+        }
+        #testimonials .author {
+            float: right;
+            background-image: url(../image/author.jpg);
+            background-repeat: no-repeat;
+            background-position: top right;
+            padding-right: 19px;
+            margin-right: 30px;
+        }
+       
+        #bot {
+            background-image: url(../image/bg-bottom.jpg);
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            width: 1002px;
+            margin: auto;
+            font-size: 14px
+        }
+        #bot .cell{
+            padding: 0px 20px;
+        }
+        #bot img{
+            margin: auto;
+            margin-top: 30px;
+        }
+        #bot a {
+            background-image: url(../image/social-icons.png);
+            background-repeat: no-repeat;
+            display: block;
+            margin-left: 4px;
+            width: 24px;
+            height: 24px;
+            float: left;
+        }
+        #bot a.skype {
+            background-position: 0px 0px;
+        }
+        #bot a.skype:hover {
+            background-position: -24px 0px;
+        }
+        #bot a.linkedin {
+            background-position: 0px -24px;
+        }
+        #bot a.linkedin:hover {
+            background-position: -24px -24px;
+        }
+        #bot a.facebook {
+            background-position: 0px -48px;
+        }
+        #bot a.facebook:hover {
+            background-position: -24px -48px;
+        }
+        #bot a.digg {
+            background-position: 0px -72px;
+        }
+        #bot a.digg:hover {
+            background-position: -24px -72px;
+        }
+        #bot a.devi {
+           background-position: 0px -96px;
+        }
+        #bot a.devi:hover {
+            background-position: -24px -96px;
+        }
+        #bot a.twitter {
+            background-position: 0px -120px;
+        }
+        #bot a.twitter:hover {
+            background-position: -24px -120px;
+        }
+
+        #footer {
+            background-image: url(../image/bg-footer.jpg);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            width: 1002px;
+            height: 35px;
+            margin: auto;
+        }
+        #footer .text{
+            float: left;
+            padding: 5px 30px
+        }
+        #footer .navbar{
+            float: right;
+            border: none;
+            margin-top: -10px;
+            margin-right: 30px;
+        }
+        #footer .navbar ul {
+                list-style: none;
+                display: inline-flex;
+        }
+        #footer .navbar ul li{
+            padding: 0px 5px 0px 7px;
+            text-align:center;
+            border-left: 1px solid #1d1d1d;
+        }
+        #footer .navbar ul li a{
+            text-decoration: none;
+            color: #20101f;
+        }
